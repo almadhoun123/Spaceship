@@ -1,0 +1,94 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/Plugins/Editor/JetBrains*
+/Assets/AssetStoreTools*
+
+# IDE
+.vs/
+.vscode/
+.idea/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash / builds
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# OS
+.DS_Store
+Thumbs.db
+
+# BEGIN unity vcs doctor
+# Unity ignore rules kept current by `unity vcs doctor --fix`. Managed block: edits here are overwritten. To opt out of a rule, negate it below this block (for example `!*.log`).
+*.log
+*.obb
+*.unitypackage.meta
+.dirstamp
+.gradle/
+.utmp/
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+/ServerData/
+/UIElementsSchema/
+/[Aa]ssets/**/*.blend1
+/[Aa]ssets/**/*.blend1.meta
+/[Aa]ssets/**/TDImportCache.meta
+/[Aa]ssets/**/TDImportCache/
+/[Aa]ssets/AddressableAssetsData/*/addressables_content_state.bin
+/[Aa]ssets/AddressableAssetsData/*/addressables_content_state.bin.meta
+/[Aa]ssets/AddressableAssetsData/link.xml
+/[Aa]ssets/AddressableAssetsData/link.xml.meta
+/[Aa]ssets/Addressables_Temp.meta
+/[Aa]ssets/Addressables_Temp/
+/[Aa]ssets/GeneratedLocalRepo.meta
+/[Aa]ssets/GeneratedLocalRepo/
+/[Aa]ssets/InitTestScene*.unity
+/[Aa]ssets/InitTestScene*.unity.meta
+/[Aa]ssets/Plugins/Android/**/*.gradle.backup*
+/[Aa]ssets/Plugins/Android/**/local.properties
+/[Aa]ssets/Resources/PerformanceTestRunInfo.json
+/[Aa]ssets/Resources/PerformanceTestRunInfo.json.meta
+/[Aa]ssets/Resources/PerformanceTestRunSettings.json
+/[Aa]ssets/Resources/PerformanceTestRunSettings.json.meta
+/[Aa]ssets/StreamingAssets/aa.meta
+/[Aa]ssets/StreamingAssets/aa/
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/[Ss]ceneDependencyCache*
+/[Aa]ssets/_Recovery.meta
+/[Aa]ssets/_Recovery/
+ExportedObj/
+mono_crash.*
+tmpinst-dir.stamp
+# END unity vcs doctor
