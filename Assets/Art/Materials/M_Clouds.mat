@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Clouds
+  m_Shader: {fileID: 4800000, guid: c65410384c14ed440abc22d4f2d7a5b7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2980
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Ambient: 0.065
+    - _Brightness: 3.27
+    - _Coverage: 0.643
+    - _CoverageScale: 4.39
+    - _CoverageSoftness: 0.428
+    - _DetailScale: 8.4
+    - _DiffuseFalloff: 0.334
+    - _EdgeSoftness: 0.451
+    - _Evolve: 0.01
+    - _HighOpacity: 0
+    - _HighParallax: 0.0239
+    - _HighScale: 2
+    - _HighSpeed: -0.0041
+    - _HighStretch: 3.33
+    - _HighThreshold: 0.412
+    - _InnerVariation: 0.486
+    - _NightBrightness: 0.124
+    - _NightOpacity: 0.275
+    - _Opacity: 0.321
+    - _PuffScale: 1.41
+    - _Puffiness: 0.312
+    - _SelfShadow: 1.1
+    - _ShadowBrightness: 0.156
+    - _ShadowOffset: 0.0018
+    - _Speed: 0.0005
+    - _SunsetWidth: 0.464
+    - _TerminatorBrightness: 3.34
+    - _TerminatorOffset: -0.115
+    - _TerminatorSharpness: 6.05
+    - _TerminatorTint: 0.229
+    - _TerminatorWidth: 0.373
+    - _Threshold: 0.376
+    - _Warp: 1.35
+    m_Colors:
+    - _CloudColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NightColor: {r: 0.55, g: 0.62, b: 0.8, a: 1}
+    - _TerminatorColor: {r: 1, g: 0.6306786, b: 0.23400003, a: 1}
+    - _TerminatorColor2: {r: 0.404, g: 0.18536471, b: 0.031686272, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
