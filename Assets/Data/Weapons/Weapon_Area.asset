@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745a9353f089b9b4f946d56f3dc5f835, type: 3}
+  m_Name: Weapon_Area
+  m_EditorClassIdentifier: Assembly-CSharp::AreaWeaponSettings
+  energyCost: 20
+  maxDamage: 100
+  minDamage: 10
+  fullDamageArea: 0.03
+  range: 400
+  brushRadius: 0.08
+  lineDepth: 0.5
+  lineWidth: 0.004
+  markPadding: 10
+  showAfterFire: 0.35

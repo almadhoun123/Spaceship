@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23a36e72c750b12419a35a5c64fa850c, type: 3}
+  m_Name: Level01_SpawnPlan
+  m_EditorClassIdentifier: Assembly-CSharp::SegmentSpawnPlan
+  startQuietSeconds: 8
+  segments:
+  - label: 1 - Hazards
+    hazardsPer100m: 5
+    cloudShare: 0.5
+    enemyRate: 0
+    peakAt: 0.65
+    startStrength: 0
+  - label: 2 - Enemies
+    hazardsPer100m: 0
+    cloudShare: 0.5
+    enemyRate: 1.5
+    peakAt: 0.65
+    startStrength: 0.4
+  - label: 3 - Both
+    hazardsPer100m: 3
+    cloudShare: 0.5
+    enemyRate: 1.2
+    peakAt: 0.65
+    startStrength: 0.4

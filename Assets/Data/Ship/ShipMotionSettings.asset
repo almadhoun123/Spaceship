@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311ddc62a4d8e4442bd703c56f88a866, type: 3}
+  m_Name: ShipMotionSettings
+  m_EditorClassIdentifier: Assembly-CSharp::ShipMotionSettings
+  intensity: 1
+  bankPerTurnRate: 0.6
+  maxCurveBank: 6
+  pitchPerClimbRate: 0.25
+  maxCurvePitch: 2.5
+  curveSmoothTime: 0.45
+  rollPerSideSpeed: 0.3
+  maxMoveRoll: 6
+  pitchPerVerticalSpeed: 0.25
+  maxMovePitch: 4
+  moveSmoothTime: 0.08
+  joltSpeedPerPercent: 0.37
+  joltAngleSpeedPerPercent: 5.5
+  maxJoltPercent: 20
+  joltStiffness: 120
+  joltDamping: 14
+  shakePerDamagePercent: 0.05
+  shakeDecay: 1.6
+  maxShakeAngle: 1.5
+  maxShakeOffset: 0.06
+  shakeFrequency: 16
+  blastShake: 0.55
+  blastKickDistance: 0.25
+  blastKickPitch: 2
+  blastKickRecovery: 5
