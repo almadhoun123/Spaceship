@@ -92,3 +92,10 @@ ExportedObj/
 mono_crash.*
 tmpinst-dir.stamp
 # END unity vcs doctor
+
+# Blender (NeoArt pipeline)
+*.blend1
+*.blend2
+/blender/scripts/_cache/
+/blender/scripts/_review/
+__pycache__/
